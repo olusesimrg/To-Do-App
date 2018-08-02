@@ -23,5 +23,5 @@ $("input[type='text']").keypress(function(e) {
 });
 //hiding and showing the text input
 $(".plus").click(function(){
-	$("input[type='text']").fadeToggle(700);
+	$("input[type='text']").fadeToggle(500);
 });
