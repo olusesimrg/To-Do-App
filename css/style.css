@@ -64,17 +64,12 @@ span{
 	opacity: 0;
 }
 li:hover span{
-	width: 45px;
+	width: 40px;
 	cursor: pointer;
-	opacity: 1;
+	opacity: 1.0;
 }
 .plus{
 	float: right;
 	font-weight: bold;
 	cursor: pointer;
-}
- i{
-font-size: 20px;
-float: right;
-padding-top: 4px;
 }

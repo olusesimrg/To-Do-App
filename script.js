@@ -8,7 +8,7 @@ $("input[type='text']").keypress(function(e){
 		var todoText = $(this).val();
 		$(this).val("");
 //creating a new li and add to the ul
-		$("ul").append('<li><span>x</span>' + todoText + '</li>');
+		$("ul").append('<li><span><i class="fas fa-trash"></i></span>' + todoText + '</li>');
 	}
 });
 
@@ -22,6 +22,6 @@ $("ul").on("click", "span", function(event){
 
 
 //hiding and showing the text input
-$(".plus").click(function(){
+$(".icon").click(function(){
 	$("input[type='text']").fadeToggle(700);
 });
